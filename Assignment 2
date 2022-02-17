@@ -1,0 +1,19 @@
+def is leap(n):
+    if n%400==0:
+       return True
+    if n%100==0:
+       return False
+    if n%4==0:
+       return True
+    return False
+
+Year=int(input())
+Print(is leap year)
+
+OUTPUT
+Input(stdin)
+1990
+Your output(stdout)
+False
+Expected output (stdout)
+False
